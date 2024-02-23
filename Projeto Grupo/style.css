@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(todolist.jpg);
+    background-size: cover; 
+    background-position: center;
+  }
+  
+  .container {
+    width: 50%; 
+    margin: 0 auto; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+  
+  #taskInput {
+    margin-bottom: 10px;
+  }
+    
+  button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    }  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #720544;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #720544;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  li:hover {
+    background-color: #eaeaea;
+  }
